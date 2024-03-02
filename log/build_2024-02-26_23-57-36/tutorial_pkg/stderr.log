@@ -1,0 +1,11 @@
+[01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:[m[K In member function ‘[01m[Kvoid Tracker::_designateControl(geometry_msgs::msg::Twist&, cv::Rect, uint32_t)[m[K’:
+[01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:87:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kelse[m[K’
+   87 |     } if [01;31m[Ke[m[K[32m[Klse[m[K (obj_x_center > screen_center_x) {
+      |          [01;31m[K^[m[K[32m[K~~~[m[K
+      |          [32m[K([m[K
+[01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:90:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   90 |     } [01;31m[Kelse[m[K {
+      |       [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/tracker.dir/build.make:63: CMakeFiles/tracker.dir/src/tracker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/tracker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

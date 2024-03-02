@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000132] (tutorial_pkg) JobQueued: {'identifier': 'tutorial_pkg', 'dependencies': OrderedDict()}
+[0.000236] (tutorial_pkg) JobStarted: {'identifier': 'tutorial_pkg'}
+[0.099316] (-) TimerEvent: {}
+[0.199607] (-) TimerEvent: {}
+[0.300805] (-) TimerEvent: {}
+[0.401640] (-) TimerEvent: {}
+[0.502265] (-) TimerEvent: {}
+[0.508604] (tutorial_pkg) JobProgress: {'identifier': 'tutorial_pkg', 'progress': 'cmake'}
+[0.509371] (tutorial_pkg) JobProgress: {'identifier': 'tutorial_pkg', 'progress': 'build'}
+[0.510209] (tutorial_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/long/tracker_ws/build/tutorial_pkg', '--', '-j4', '-l4'], 'cwd': '/home/long/tracker_ws/build/tutorial_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'long'), ('SSH_AGENT_PID', '1524'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/long'), ('OLDPWD', '/home/long/tracker_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/long/tracker_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'long'), ('JOURNAL_STREAM', '8:41762'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'long'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/long-HP-Spectre-x360-Convertible-13-ac0XX:@/tmp/.ICE-unix/1563,unix/long-HP-Spectre-x360-Convertible-13-ac0XX:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '34de5d4dd2c34f00a1baed88f586c0e9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d8f32d4_c5c1_4f53_b34c_97ffb067c462'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/long/tracker_ws/install/tutorial_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/long/tracker_ws/build/tutorial_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/long/tracker_ws/install/tutorial_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.563235] (tutorial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_node\x1b[0m\n'}
+[0.597937] (tutorial_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.602412] (-) TimerEvent: {}
+[0.703711] (-) TimerEvent: {}
+[0.804068] (-) TimerEvent: {}
+[0.904382] (-) TimerEvent: {}
+[1.004711] (-) TimerEvent: {}
+[1.105041] (-) TimerEvent: {}
+[1.205352] (-) TimerEvent: {}
+[1.305671] (-) TimerEvent: {}
+[1.405977] (-) TimerEvent: {}
+[1.506259] (-) TimerEvent: {}
+[1.606573] (-) TimerEvent: {}
+[1.706910] (-) TimerEvent: {}
+[1.807302] (-) TimerEvent: {}
+[1.907643] (-) TimerEvent: {}
+[2.007963] (-) TimerEvent: {}
+[2.108284] (-) TimerEvent: {}
+[2.208600] (-) TimerEvent: {}
+[2.308920] (-) TimerEvent: {}
+[2.409244] (-) TimerEvent: {}
+[2.509581] (-) TimerEvent: {}
+[2.609916] (-) TimerEvent: {}
+[2.710252] (-) TimerEvent: {}
+[2.810612] (-) TimerEvent: {}
+[2.910938] (-) TimerEvent: {}
+[3.011256] (-) TimerEvent: {}
+[3.111580] (-) TimerEvent: {}
+[3.211899] (-) TimerEvent: {}
+[3.312227] (-) TimerEvent: {}
+[3.412548] (-) TimerEvent: {}
+[3.512866] (-) TimerEvent: {}
+[3.613187] (-) TimerEvent: {}
+[3.713489] (-) TimerEvent: {}
+[3.813833] (-) TimerEvent: {}
+[3.914116] (-) TimerEvent: {}
+[4.014406] (-) TimerEvent: {}
+[4.114690] (-) TimerEvent: {}
+[4.215004] (-) TimerEvent: {}
+[4.315286] (-) TimerEvent: {}
+[4.415573] (-) TimerEvent: {}
+[4.515875] (-) TimerEvent: {}
+[4.616190] (-) TimerEvent: {}
+[4.716502] (-) TimerEvent: {}
+[4.816827] (-) TimerEvent: {}
+[4.917146] (-) TimerEvent: {}
+[5.017462] (-) TimerEvent: {}
+[5.117787] (-) TimerEvent: {}
+[5.218101] (-) TimerEvent: {}
+[5.318468] (-) TimerEvent: {}
+[5.418788] (-) TimerEvent: {}
+[5.519106] (-) TimerEvent: {}
+[5.619392] (-) TimerEvent: {}
+[5.719737] (-) TimerEvent: {}
+[5.820073] (-) TimerEvent: {}
+[5.920410] (-) TimerEvent: {}
+[6.009856] (tutorial_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_first_node\x1b[0m\n'}
+[6.020535] (-) TimerEvent: {}
+[6.120846] (-) TimerEvent: {}
+[6.221213] (-) TimerEvent: {}
+[6.302076] (tutorial_pkg) StdoutLine: {'line': b'[100%] Built target my_first_node\n'}
+[6.314135] (tutorial_pkg) CommandEnded: {'returncode': 0}
+[6.321388] (-) TimerEvent: {}
+[6.339274] (tutorial_pkg) JobProgress: {'identifier': 'tutorial_pkg', 'progress': 'install'}
+[6.353089] (tutorial_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/long/tracker_ws/build/tutorial_pkg'], 'cwd': '/home/long/tracker_ws/build/tutorial_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'long'), ('SSH_AGENT_PID', '1524'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/long'), ('OLDPWD', '/home/long/tracker_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/long/tracker_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'long'), ('JOURNAL_STREAM', '8:41762'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'long'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/long-HP-Spectre-x360-Convertible-13-ac0XX:@/tmp/.ICE-unix/1563,unix/long-HP-Spectre-x360-Convertible-13-ac0XX:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '34de5d4dd2c34f00a1baed88f586c0e9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d8f32d4_c5c1_4f53_b34c_97ffb067c462'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/long/tracker_ws/install/tutorial_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/long/tracker_ws/build/tutorial_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/long/tracker_ws/install/tutorial_pkg:/opt/ros/foxy')]), 'shell': False}
+[6.362407] (tutorial_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.362643] (tutorial_pkg) StdoutLine: {'line': b'-- Installing: /home/long/tracker_ws/install/tutorial_pkg/lib/tutorial_pkg/my_first_node\n'}
+[6.365284] (tutorial_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/long/tracker_ws/install/tutorial_pkg/lib/tutorial_pkg/my_first_node" to ""\n'}
+[6.365531] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/ament_index/resource_index/package_run_dependencies/tutorial_pkg\n'}
+[6.365724] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/ament_index/resource_index/parent_prefix_path/tutorial_pkg\n'}
+[6.365931] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.sh\n'}
+[6.366047] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.dsv\n'}
+[6.366157] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/path.sh\n'}
+[6.366264] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/path.dsv\n'}
+[6.366348] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.bash\n'}
+[6.366456] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.sh\n'}
+[6.366581] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.zsh\n'}
+[6.366647] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.dsv\n'}
+[6.366706] (tutorial_pkg) StdoutLine: {'line': b'-- Installing: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/package.dsv\n'}
+[6.366765] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/ament_index/resource_index/packages/tutorial_pkg\n'}
+[6.366839] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig.cmake\n'}
+[6.366898] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig-version.cmake\n'}
+[6.366956] (tutorial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/package.xml\n'}
+[6.368509] (tutorial_pkg) CommandEnded: {'returncode': 0}
+[6.421450] (-) TimerEvent: {}
+[6.522183] (-) TimerEvent: {}
+[6.622764] (-) TimerEvent: {}
+[6.723083] (-) TimerEvent: {}
+[6.824104] (-) TimerEvent: {}
+[6.924657] (-) TimerEvent: {}
+[7.025124] (-) TimerEvent: {}
+[7.127377] (-) TimerEvent: {}
+[7.161723] (tutorial_pkg) JobEnded: {'identifier': 'tutorial_pkg', 'rc': 0}
+[7.162435] (-) EventReactorShutdown: {}

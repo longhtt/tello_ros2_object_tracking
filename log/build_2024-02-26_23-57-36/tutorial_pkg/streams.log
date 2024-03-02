@@ -1,0 +1,16 @@
+[0.450s] Invoking command in '/home/long/tracker_ws/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4
+[0.505s] [35m[1mScanning dependencies of target tracker[0m
+[0.526s] [ 50%] Built target my_first_node
+[0.547s] [ 75%] [32mBuilding CXX object CMakeFiles/tracker.dir/src/tracker.cpp.o[0m
+[3.129s] [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:[m[K In member function ‘[01m[Kvoid Tracker::_designateControl(geometry_msgs::msg::Twist&, cv::Rect, uint32_t)[m[K’:
+[3.129s] [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:87:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kelse[m[K’
+[3.129s]    87 |     } if [01;31m[Ke[m[K[32m[Klse[m[K (obj_x_center > screen_center_x) {
+[3.129s]       |          [01;31m[K^[m[K[32m[K~~~[m[K
+[3.129s]       |          [32m[K([m[K
+[3.129s] [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:90:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[3.129s]    90 |     } [01;31m[Kelse[m[K {
+[3.129s]       |       [01;31m[K^~~~[m[K
+[5.512s] make[2]: *** [CMakeFiles/tracker.dir/build.make:63: CMakeFiles/tracker.dir/src/tracker.cpp.o] Error 1
+[5.513s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/tracker.dir/all] Error 2
+[5.513s] make: *** [Makefile:141: all] Error 2
+[5.515s] Invoked command in '/home/long/tracker_ws/build/tutorial_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4

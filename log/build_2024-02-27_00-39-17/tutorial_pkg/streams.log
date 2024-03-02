@@ -1,0 +1,20 @@
+[0.454s] Invoking command in '/home/long/tracker_ws/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4
+[0.501s] [35m[1mScanning dependencies of target tracker[0m
+[0.522s] [ 50%] Built target my_first_node
+[0.541s] [ 75%] [32mBuilding CXX object CMakeFiles/tracker.dir/src/tracker.cpp.o[0m
+[3.092s] [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:[m[K In member function ‘[01m[Kvoid Tracker::_imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.092s] [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:32:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Rect[m[K’ {aka ‘[01m[Kcv::Rect_<int>[m[K’} to ‘[01m[Kcv::Rect2d&[m[K’ {aka ‘[01m[Kcv::Rect_<double>&[m[K’}
+[3.092s]    32 |   bool ok = _tracker->update(frame, [01;31m[Kobj[m[K);
+[3.092s]       |                                     [01;31m[K^~~[m[K
+[3.092s]       |                                     [01;31m[K|[m[K
+[3.092s]       |                                     [01;31m[Kcv::Rect {aka cv::Rect_<int>}[m[K
+[3.093s] In file included from [01m[K/usr/include/opencv4/opencv2/tracking.hpp:281[m[K,
+[3.093s]                  from [01m[K/home/long/tracker_ws/src/tutorial_pkg/include/tutorial_pkg/tracker.hpp:6[m[K,
+[3.093s]                  from [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:1[m[K:
+[3.093s] [01m[K/usr/include/opencv4/opencv2/tracking/tracker.hpp:547:57:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool cv::Tracker::update(cv::InputArray, cv::Rect2d&)[m[K’
+[3.093s]   547 |   CV_WRAP bool update( InputArray image, CV_OUT [01;36m[KRect2d& boundingBox[m[K );
+[3.093s]       |                                                 [01;36m[K~~~~~~~~^~~~~~~~~~~[m[K
+[5.519s] make[2]: *** [CMakeFiles/tracker.dir/build.make:63: CMakeFiles/tracker.dir/src/tracker.cpp.o] Error 1
+[5.519s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/tracker.dir/all] Error 2
+[5.519s] make: *** [Makefile:141: all] Error 2
+[5.525s] Invoked command in '/home/long/tracker_ws/build/tutorial_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4

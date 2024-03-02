@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target my_first_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_first_node[0m
+[100%] Built target my_first_node
+-- Install configuration: ""
+-- Installing: /home/long/tracker_ws/install/tutorial_pkg/lib/tutorial_pkg/my_first_node
+-- Set runtime path of "/home/long/tracker_ws/install/tutorial_pkg/lib/tutorial_pkg/my_first_node" to ""
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/ament_index/resource_index/package_run_dependencies/tutorial_pkg
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/ament_index/resource_index/parent_prefix_path/tutorial_pkg
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/path.sh
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/path.dsv
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.bash
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.sh
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.zsh
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.dsv
+-- Installing: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/package.dsv
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/ament_index/resource_index/packages/tutorial_pkg
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig.cmake
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig-version.cmake
+-- Up-to-date: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/package.xml

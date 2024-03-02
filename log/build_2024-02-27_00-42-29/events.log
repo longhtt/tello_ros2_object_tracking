@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000739] (tutorial_pkg) JobQueued: {'identifier': 'tutorial_pkg', 'dependencies': OrderedDict()}
+[0.000783] (tutorial_pkg) JobStarted: {'identifier': 'tutorial_pkg'}
+[0.100098] (-) TimerEvent: {}
+[0.200486] (-) TimerEvent: {}
+[0.301388] (-) TimerEvent: {}
+[0.402652] (-) TimerEvent: {}
+[0.487422] (tutorial_pkg) JobProgress: {'identifier': 'tutorial_pkg', 'progress': 'cmake'}
+[0.489200] (tutorial_pkg) JobProgress: {'identifier': 'tutorial_pkg', 'progress': 'build'}
+[0.489546] (tutorial_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/long/tracker_ws/build/tutorial_pkg', '--', '-j4', '-l4'], 'cwd': '/home/long/tracker_ws/build/tutorial_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'long'), ('SSH_AGENT_PID', '1524'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/long'), ('OLDPWD', '/home/long/tracker_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/long/tracker_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'long'), ('JOURNAL_STREAM', '8:41762'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'long'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/long-HP-Spectre-x360-Convertible-13-ac0XX:@/tmp/.ICE-unix/1563,unix/long-HP-Spectre-x360-Convertible-13-ac0XX:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '34de5d4dd2c34f00a1baed88f586c0e9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d8f32d4_c5c1_4f53_b34c_97ffb067c462'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/long/tracker_ws/install/tutorial_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/long/tracker_ws/build/tutorial_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/long/tracker_ws/install/tutorial_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.502777] (-) TimerEvent: {}
+[0.539706] (tutorial_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[0.564781] (tutorial_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.602889] (-) TimerEvent: {}
+[0.703179] (-) TimerEvent: {}
+[0.773043] (tutorial_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.803304] (-) TimerEvent: {}
+[0.807643] (tutorial_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.811416] (tutorial_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.903417] (-) TimerEvent: {}
+[0.946296] (tutorial_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.003533] (-) TimerEvent: {}
+[1.103895] (-) TimerEvent: {}
+[1.139962] (tutorial_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.179603] (tutorial_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.181258] (tutorial_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.204008] (-) TimerEvent: {}
+[1.304363] (-) TimerEvent: {}
+[1.329892] (tutorial_pkg) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[1.404490] (-) TimerEvent: {}
+[1.427285] (tutorial_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.458406] (tutorial_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.460212] (tutorial_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/long/tracker_ws/build/tutorial_pkg\n'}
+[1.491917] (tutorial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tracker\x1b[0m\n'}
+[1.504615] (-) TimerEvent: {}
+[1.515672] (tutorial_pkg) StdoutLine: {'line': b'[ 50%] Built target my_first_node\n'}
+[1.536751] (tutorial_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/tracker.dir/src/tracker.cpp.o\x1b[0m\n'}
+[1.604706] (-) TimerEvent: {}
+[1.705110] (-) TimerEvent: {}
+[1.805477] (-) TimerEvent: {}
+[1.905818] (-) TimerEvent: {}
+[2.006149] (-) TimerEvent: {}
+[2.106478] (-) TimerEvent: {}
+[2.206851] (-) TimerEvent: {}
+[2.307203] (-) TimerEvent: {}
+[2.407673] (-) TimerEvent: {}
+[2.508025] (-) TimerEvent: {}
+[2.608382] (-) TimerEvent: {}
+[2.708778] (-) TimerEvent: {}
+[2.809176] (-) TimerEvent: {}
+[2.909561] (-) TimerEvent: {}
+[3.009938] (-) TimerEvent: {}
+[3.110431] (-) TimerEvent: {}
+[3.210851] (-) TimerEvent: {}
+[3.311209] (-) TimerEvent: {}
+[3.411560] (-) TimerEvent: {}
+[3.511905] (-) TimerEvent: {}
+[3.612244] (-) TimerEvent: {}
+[3.712601] (-) TimerEvent: {}
+[3.813040] (-) TimerEvent: {}
+[3.913372] (-) TimerEvent: {}
+[4.013677] (-) TimerEvent: {}
+[4.113997] (-) TimerEvent: {}
+[4.214299] (-) TimerEvent: {}
+[4.233403] (tutorial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Tracker::_imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.233701] (tutorial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:32:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kcv::Rect\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kcv::Rect_<int>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kcv::Rect2d&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kcv::Rect_<double>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.234038] (tutorial_pkg) StderrLine: {'line': b'   32 |   bool ok = _tracker->update(frame, \x1b[01;31m\x1b[Kobj\x1b[m\x1b[K);\n'}
+[4.234179] (tutorial_pkg) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.234302] (tutorial_pkg) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.234420] (tutorial_pkg) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[Kcv::Rect {aka cv::Rect_<int>}\x1b[m\x1b[K\n'}
+[4.234538] (tutorial_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/tracking.hpp:281\x1b[m\x1b[K,\n'}
+[4.234653] (tutorial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/long/tracker_ws/src/tutorial_pkg/include/tutorial_pkg/tracker.hpp:6\x1b[m\x1b[K,\n'}
+[4.234764] (tutorial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:1\x1b[m\x1b[K:\n'}
+[4.234870] (tutorial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/tracking/tracker.hpp:547:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kbool cv::Tracker::update(cv::InputArray, cv::Rect2d&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.234994] (tutorial_pkg) StderrLine: {'line': b'  547 |   CV_WRAP bool update( InputArray image, CV_OUT \x1b[01;36m\x1b[KRect2d& boundingBox\x1b[m\x1b[K );\n'}
+[4.235108] (tutorial_pkg) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.314411] (-) TimerEvent: {}
+[4.414758] (-) TimerEvent: {}
+[4.515141] (-) TimerEvent: {}
+[4.615625] (-) TimerEvent: {}
+[4.715965] (-) TimerEvent: {}
+[4.816303] (-) TimerEvent: {}
+[4.916663] (-) TimerEvent: {}
+[5.017035] (-) TimerEvent: {}
+[5.117397] (-) TimerEvent: {}
+[5.217897] (-) TimerEvent: {}
+[5.318238] (-) TimerEvent: {}
+[5.418576] (-) TimerEvent: {}
+[5.518914] (-) TimerEvent: {}
+[5.619245] (-) TimerEvent: {}
+[5.719594] (-) TimerEvent: {}
+[5.819949] (-) TimerEvent: {}
+[5.920333] (-) TimerEvent: {}
+[6.020640] (-) TimerEvent: {}
+[6.120953] (-) TimerEvent: {}
+[6.221250] (-) TimerEvent: {}
+[6.321637] (-) TimerEvent: {}
+[6.421959] (-) TimerEvent: {}
+[6.522287] (-) TimerEvent: {}
+[6.622718] (-) TimerEvent: {}
+[6.723069] (-) TimerEvent: {}
+[6.749025] (tutorial_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/tracker.dir/build.make:63: CMakeFiles/tracker.dir/src/tracker.cpp.o] Error 1\n'}
+[6.749294] (tutorial_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/tracker.dir/all] Error 2\n'}
+[6.749458] (tutorial_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.751835] (tutorial_pkg) CommandEnded: {'returncode': 2}
+[6.824272] (-) TimerEvent: {}
+[6.924882] (-) TimerEvent: {}
+[7.025401] (-) TimerEvent: {}
+[7.126651] (-) TimerEvent: {}
+[7.227512] (-) TimerEvent: {}
+[7.281723] (tutorial_pkg) JobEnded: {'identifier': 'tutorial_pkg', 'rc': 2}
+[7.282884] (-) EventReactorShutdown: {}

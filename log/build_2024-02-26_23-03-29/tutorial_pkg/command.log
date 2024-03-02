@@ -1,0 +1,6 @@
+Invoking command in '/home/long/tracker_ws/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/long/tracker_ws/src/tutorial_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/long/tracker_ws/install/tutorial_pkg
+Invoked command in '/home/long/tracker_ws/build/tutorial_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/long/tracker_ws/src/tutorial_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/long/tracker_ws/install/tutorial_pkg
+Invoking command in '/home/long/tracker_ws/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4
+Invoked command in '/home/long/tracker_ws/build/tutorial_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4
+Invoking command in '/home/long/tracker_ws/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/long/tracker_ws/build/tutorial_pkg
+Invoked command in '/home/long/tracker_ws/build/tutorial_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/long/tracker_ws/build/tutorial_pkg

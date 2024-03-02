@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target tracker[0m
+[ 50%] Built target my_first_node
+[ 75%] [32mBuilding CXX object CMakeFiles/tracker.dir/src/tracker.cpp.o[0m

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/long/tracker_ws/build/tutorial_pkg/my_first_node" "/home/long/tracker_ws/build/tutorial_pkg/tracker" "TARGETS" "my_first_node" "tracker" "DESTINATION" "lib/tutorial_pkg")

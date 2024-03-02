@@ -1,0 +1,29 @@
+[0.465s] Invoking command in '/home/long/tracker_ws/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4
+[0.512s] [35m[1mScanning dependencies of target tracker[0m
+[0.539s] [ 50%] Built target my_first_node
+[0.556s] [ 75%] [32mBuilding CXX object CMakeFiles/tracker.dir/src/tracker.cpp.o[0m
+[8.183s] [100%] [32m[1mLinking CXX executable tracker[0m
+[8.973s] [100%] Built target tracker
+[8.987s] Invoked command in '/home/long/tracker_ws/build/tutorial_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4
+[9.028s] Invoking command in '/home/long/tracker_ws/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/long/tracker_ws/build/tutorial_pkg
+[9.038s] -- Install configuration: ""
+[9.038s] -- Execute custom install script
+[9.039s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/lib/tutorial_pkg/my_first_node
+[9.039s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/lib/tutorial_pkg/tracker
+[9.040s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/launch/my_launch_file.launch.py
+[9.040s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/ament_index/resource_index/package_run_dependencies/tutorial_pkg
+[9.041s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/ament_index/resource_index/parent_prefix_path/tutorial_pkg
+[9.041s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.sh
+[9.042s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.dsv
+[9.042s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/path.sh
+[9.042s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/environment/path.dsv
+[9.043s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.bash
+[9.043s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.sh
+[9.043s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.zsh
+[9.044s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.dsv
+[9.044s] -- Symlinking: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/package.dsv
+[9.055s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/ament_index/resource_index/packages/tutorial_pkg
+[9.055s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig.cmake
+[9.055s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig-version.cmake
+[9.056s] -- Up-to-date symlink: /home/long/tracker_ws/install/tutorial_pkg/share/tutorial_pkg/package.xml
+[9.058s] Invoked command in '/home/long/tracker_ws/build/tutorial_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/long/tracker_ws/build/tutorial_pkg

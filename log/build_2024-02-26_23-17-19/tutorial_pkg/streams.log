@@ -1,0 +1,33 @@
+[0.451s] Invoking command in '/home/long/tracker_ws/build/tutorial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4
+[0.489s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.511s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.698s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.733s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.052s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.090s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.091s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.238s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.323s] -- Configuring done
+[1.351s] -- Generating done
+[1.352s] -- Build files have been written to: /home/long/tracker_ws/build/tutorial_pkg
+[1.380s] [35m[1mScanning dependencies of target tracker[0m
+[1.408s] [ 50%] Built target my_first_node
+[1.453s] [ 75%] [32mBuilding CXX object CMakeFiles/tracker.dir/src/tracker.cpp.o[0m
+[3.999s] [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:[m[K In member function ‘[01m[Kvoid Tracker::_imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.999s] [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:32:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Rect[m[K’ {aka ‘[01m[Kcv::Rect_<int>[m[K’} to ‘[01m[Kcv::Rect2d&[m[K’ {aka ‘[01m[Kcv::Rect_<double>&[m[K’}
+[3.999s]    32 |   bool ok = _tracker->update(frame, [01;31m[Kobj[m[K);
+[3.999s]       |                                     [01;31m[K^~~[m[K
+[3.999s]       |                                     [01;31m[K|[m[K
+[3.999s]       |                                     [01;31m[Kcv::Rect {aka cv::Rect_<int>}[m[K
+[3.999s] In file included from [01m[K/usr/include/opencv4/opencv2/tracking.hpp:281[m[K,
+[3.999s]                  from [01m[K/home/long/tracker_ws/src/tutorial_pkg/include/tutorial_pkg/tracker.hpp:6[m[K,
+[3.999s]                  from [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:1[m[K:
+[3.999s] [01m[K/usr/include/opencv4/opencv2/tracking/tracker.hpp:547:57:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool cv::Tracker::update(cv::InputArray, cv::Rect2d&)[m[K’
+[3.999s]   547 |   CV_WRAP bool update( InputArray image, CV_OUT [01;36m[KRect2d& boundingBox[m[K );
+[3.999s]       |                                                 [01;36m[K~~~~~~~~^~~~~~~~~~~[m[K
+[6.438s] make[2]: *** [CMakeFiles/tracker.dir/build.make:63: CMakeFiles/tracker.dir/src/tracker.cpp.o] Error 1
+[6.439s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/tracker.dir/all] Error 2
+[6.439s] make: *** [Makefile:141: all] Error 2
+[6.442s] Invoked command in '/home/long/tracker_ws/build/tutorial_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/long/tracker_ws/build/tutorial_pkg -- -j4 -l4

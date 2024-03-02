@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target tracker[0m
+[ 50%] Built target my_first_node
+[ 75%] [32mBuilding CXX object CMakeFiles/tracker.dir/src/tracker.cpp.o[0m
+[01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:[m[K In member function ‘[01m[Kvoid Tracker::_imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:32:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Rect[m[K’ {aka ‘[01m[Kcv::Rect_<int>[m[K’} to ‘[01m[Kcv::Rect2d&[m[K’ {aka ‘[01m[Kcv::Rect_<double>&[m[K’}
+   32 |   bool ok = _tracker->update(frame, [01;31m[Kobj[m[K);
+      |                                     [01;31m[K^~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kcv::Rect {aka cv::Rect_<int>}[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/tracking.hpp:281[m[K,
+                 from [01m[K/home/long/tracker_ws/src/tutorial_pkg/include/tutorial_pkg/tracker.hpp:6[m[K,
+                 from [01m[K/home/long/tracker_ws/src/tutorial_pkg/src/tracker.cpp:1[m[K:
+[01m[K/usr/include/opencv4/opencv2/tracking/tracker.hpp:547:57:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool cv::Tracker::update(cv::InputArray, cv::Rect2d&)[m[K’
+  547 |   CV_WRAP bool update( InputArray image, CV_OUT [01;36m[KRect2d& boundingBox[m[K );
+      |                                                 [01;36m[K~~~~~~~~^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/tracker.dir/build.make:63: CMakeFiles/tracker.dir/src/tracker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/tracker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,32 @@
+-- Found OpenCV: /usr (found version "4.2.0") 
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/long/tracker_ws/build/tutorial_pkg
+[35m[1mScanning dependencies of target tracker[0m
+[35m[1mScanning dependencies of target my_first_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tracker.dir/src/tracker.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable tracker[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/tracker.dir/build.make:217: tracker] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/tracker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/long/tracker_ws/src/tutorial_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::counter_callback(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/long/tracker_ws/src/tutorial_pkg/src/my_first_node.cpp:63:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   63 |    void counter_callback([01;35m[Kconst std_srvs::srv::Trigger::Request::SharedPtr req[m[K,
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable my_first_node[0m
+[100%] Built target my_first_node
+make: *** [Makefile:141: all] Error 2
